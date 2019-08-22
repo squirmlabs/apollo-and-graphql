@@ -44,7 +44,8 @@ const methods = {
 
 // Root has the methods we will execute to get the data
 const root = {
-  message: () => 'First message'
+  contact: methods.getContact,
+  contacts: methods.getContacts
 };
 
 // GraphQL middleware
