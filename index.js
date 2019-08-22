@@ -4,6 +4,9 @@ import express from 'express';
 import expressGraphQL from 'express-graphql';
 import { buildSchema } from 'graphql';
 
+// Contacts Data
+import { contacts } from './data/contacts';
+
 // Server environment variables
 const PORT = process.env.PORT || 3000;
 
