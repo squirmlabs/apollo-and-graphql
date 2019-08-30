@@ -2,3 +2,9 @@ curl -X POST \
 -H "Content-Type: application/json" \
 -d '{"query": "{ hello }"}' \
 http://localhost:3000/graphql
+
+GET /event/?startTime=&endTime=&userId
+
+curl -X GET \
+-H "Content-Type: application/json" \
+http://localhost:14141/event/?startTime=&endTime=&userId
